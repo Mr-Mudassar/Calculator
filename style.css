@@ -3,7 +3,7 @@ input {
   overflow: scroll !important;
     border: 3px solid orange;
     border-radius: 8px;
-    margin: 4px;
+    margin: 8px;
     margin-bottom: 8px;
     font-size: 45px;
     background: linear-gradient(to bottom, #acf02f, #d4850d);
@@ -20,7 +20,7 @@ body {
 #divmain {
     border: 3px solid darkorange;
     border-radius: 8px;
-    max-width: 50vh;
+    max-width: 350px;
     justify-content: center;
     margin: auto;
     padding: auto;
@@ -82,9 +82,9 @@ button {
     #btnSubtract {
         margin-left: 2px;
     }
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 600px) {
       /* For mobile phones: */
-      button {
+  button {
         background-color: darkorange;
         border: none;
         border-radius: 40px;
@@ -95,21 +95,18 @@ button {
          box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
          font-size: 24px;
          text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
-         padding: 25px 25px;
          cursor: pointer;
          transition: all 0.3s ease-in-out;
          transform-style: preserve-3d;
          animation-name: btnMultiplyAnim;
          animation-duration: 2s;
-         animation-iteration-count: infinite;
-         margin: 7px;   
+         animation-iteration-count: infinite;   
     }
   input {
-    overflow: scroll !important;
+      overflow: scroll !important;
       border: 3px solid orange;
       border-radius: 8px;
-      margin: 4px;
-      margin-bottom: 8px;
+      margin: 8px 8px;
       font-size: 45px;
       background: linear-gradient(to bottom, #acf02f, #d4850d);
       font-family:'Times New Roman', Times, serif;
@@ -117,4 +114,10 @@ button {
       min-height: 90px;
       text-align: center;
   }
+  #divmain {
+    border: 3px solid darkorange;
+    justify-content: center;
+    border-radius: 8px;
+    margin: 90x;
     }
+  }
